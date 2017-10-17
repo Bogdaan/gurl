@@ -5,13 +5,14 @@ import (
 	"encoding/csv"
 	"flag"
 	"fmt"
-	"gurl/storage"
 	"log"
 	"net/http"
 	"strconv"
 	"strings"
 	"sync"
 	"time"
+
+	"github.com/Bogdaan/gurl/storage"
 
 	"github.com/boltdb/bolt"
 	"github.com/cespare/xxhash"
