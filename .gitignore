@@ -1,2 +1,5 @@
 debug
 links.db
+.DS_Store
+.idea/
+.vscode
